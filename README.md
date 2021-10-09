@@ -8,7 +8,7 @@ Only support [packer.nvim](https://github.com/wbthomason/packer.nvim).
 
 Use [packer.nvim](https://github.com/wbthomason/packer.nvim) to install.
 
-```
+```lua
 use {
     "qgymib/luabuild-addons.nvim",
     requires = {
@@ -28,7 +28,7 @@ Note:
 
 ### [nvim-telescope/telescope-fzf-native.nvim](https://github.com/nvim-telescope/telescope-fzf-native.nvim)
 
-```
+```lua
 use {
     "nvim-telescope/telescope-fzf-native.nvim",
     run = require("luabuild-addons").make.telescope_fzf_native
