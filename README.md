@@ -19,6 +19,11 @@ use {
     },
 }
 ```
+
+Note:
+1. `luabuild-addons.nvim` cannot be set as `opt`, but `luabuild.nvim` could.
+2. During the first install, `packer.nvim` will ask you to remove some of your plugins. Choose **NO**.
+
 ## Usage
 
 ### [nvim-telescope/telescope-fzf-native.nvim](https://github.com/nvim-telescope/telescope-fzf-native.nvim)
